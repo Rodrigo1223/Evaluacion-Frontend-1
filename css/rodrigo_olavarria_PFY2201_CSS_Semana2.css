@@ -1,0 +1,140 @@
+/* 1. Modelo de cajas (Box-sizing global) */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Fondo de la página y tipografía general (Colores y Fuentes) */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* 3. Estilos del Encabezado Principal */
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #20232a;
+    color: #ffffff;
+}
+
+header h1 {
+    color: #61dafb; /* Azul brillante para resaltar el nombre de la tienda en el fondo oscuro */
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #ffffff;
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+/* 4. Menú de Navegación */
+nav {
+    background-color: #282c34;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #61dafb;
+    text-decoration: underline;
+}
+
+/* 5. Espacios, bordes y márgenes para secciones y productos */
+section {
+    margin: 20px auto;        
+    padding: 20px;           
+    border: 2px solid #ccc;  
+    max-width: 800px;        
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 6. Colores para los títulos generales */
+h2, h3 {
+    color: #1a73e8;
+    margin-bottom: 10px;
+}
+
+/* 7. Listas de productos destacados y efectos alternos */
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+}
+
+/* Selector nth-child (para pintar filas alternas de listas) */
+section ul li:nth-child(odd) {
+    background-color: #e9ecef;
+}
+
+section ul li:nth-child(even) {
+    background-color: #ffffff;
+}
+
+/* 8. Botones de compra / interacción */
+.btn-comprar {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn-comprar:hover {
+    background-color: #218838;
+}
+
+/* 9. Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #20232a;
+    color: #ffffff;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #61dafb;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
